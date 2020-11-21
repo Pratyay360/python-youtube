@@ -1,0 +1,1 @@
+$env:GOOGLE_APPLICATION_CREDENTIALS="[path]\PLAYLIST DURATION\My First Project-0bdd6d16fa8a.json"

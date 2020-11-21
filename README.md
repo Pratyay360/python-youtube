@@ -11,5 +11,6 @@ Editor (ie. vs code)
 
 #   Requirements
 
-wget
-pyfiglet
+pip install wget
+pip install pyfiglet
+pip install google-api-python-client
