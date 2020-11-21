@@ -1,3 +1,4 @@
+import pyfiglet
 import wget
 #ascii_banner = pyfiglet.figlet_format("YouTube Thumbnail Downloader")
 ascii_banner = "YouTube Thumbnail Downloader"
