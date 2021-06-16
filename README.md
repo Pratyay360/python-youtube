@@ -23,4 +23,7 @@ pip install google-api-python-client
 
 ---
 
-# what to do Upgrade path following guide.txt in each folder
+# what to do ?
+
+Follow guide.txt in each folder.
+Follow Comments Inside the code.
