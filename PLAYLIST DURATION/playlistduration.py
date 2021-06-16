@@ -3,7 +3,11 @@ import re
 from datetime import timedelta
 from googleapiclient.discovery import build
 
-api_key = os.environ.get('AIzaSyAZGtTM4rtqgQnUcKCUaBjBqmdKV1EoXmo')
+
+'''
+ENTER API KEY COLLECTED FROM https://developers.google.com/youtube/v3/getting-started
+'''
+api_key = os.environ.get('API_KEY_HERE')
 
 youtube = build('youtube', 'v3', developerKey=api_key)
 
@@ -20,8 +24,11 @@ while True:
         part='contentDetails',
         ##
         ## Enter playlist id
-        ##
-        playlistId="PLBf0hzazHTGOEuhPQSnq-Ej8jRyXxfYvl",
+        #  https://www.youtube.com/playlist?list=PL-kIBfSqQg3vm9LJsLW-ct_egdWKv3WKR
+        # this is a youtube playlist link. 
+        # here code after https://www.youtube.com/playlist?list= 
+        # is the playlist id........
+        playlistId="PLAYLIST_ID_HERE",
         maxResults=5000,
         pageToken=nextPageToken
     )

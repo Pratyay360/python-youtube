@@ -1,3 +1,4 @@
 fill path and run to activate api
+path = path to the folder following
+also collect client_id, client_email, Private_key, Private_key_id
 $env:GOOGLE_APPLICATION_CREDENTIALS="[path]\PLAYLIST DURATION\My First Project-0bdd6d16fa8a.json"
-$env:GOOGLE_APPLICATION_CREDENTIALS="F:\python\python app\python-youtube\PLAYLIST DURATION\My First Project-0bdd6d16fa8a.json"
