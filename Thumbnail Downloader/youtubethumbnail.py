@@ -1,3 +1,15 @@
+# CREATED BY PRATYAY
+'''
+*************************
+download this to run this programme
+pip install pyfiglet==0.7
+pip install wget
+'''
+'''
+Run this programme and paste your youtube video link
+in command line then automatically youtube thumbnail 
+will download.
+'''
 import pyfiglet
 import wget
 ascii_banner = pyfiglet.figlet_format("YouTube Thumbnail Downloader")
